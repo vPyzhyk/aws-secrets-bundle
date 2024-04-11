@@ -1,0 +1,29 @@
+{
+    "name": "vpyzhyk/aws-secrets-bundle",
+    "type": "symfony-bundle",
+    "description": "Use AWS Secrets as service container parameters in Symfony. It`s fork constup/aws-secrets-bundle",
+    "keywords": ["Symfony", "AWS", "ENV", "Secrets Manager"],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "symfony/dependency-injection": "^7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^7.0",
+        "phpunit/phpunit": "^11.0.9",
+        "symfony/phpunit-bridge": "^5.3 | ^4.0",
+        "phpspec/prophecy-phpunit": "^2.2",
+        "aws/aws-sdk-php": "^3.191"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vpyzhyk\\AwsSecretsBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vpyzhyk\\AwsSecretsBundle\\Tests\\": "tests/"
+        }
+    }
+}
