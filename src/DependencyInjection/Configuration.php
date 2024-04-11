@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle\DependencyInjection;
+namespace Vpyzhyk\AwsSecretsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
