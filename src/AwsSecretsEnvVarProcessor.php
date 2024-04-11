@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle;
+namespace Vpyzhyk\AwsSecretsBundle;
 
 use Closure;
-use Constup\AwsSecretsBundle\Provider\AwsSecretsEnvVarProviderInterface;
+use Vpyzhyk\AwsSecretsBundle\Provider\AwsSecretsEnvVarProviderInterface;
 use Symfony\Component\DependencyInjection\EnvVarProcessorInterface;
 use Symfony\Component\DependencyInjection\Exception\RuntimeException;
 

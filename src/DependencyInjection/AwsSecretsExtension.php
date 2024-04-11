@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle\DependencyInjection;
+namespace Vpyzhyk\AwsSecretsBundle\DependencyInjection;
 
 use Aws\SecretsManager\SecretsManagerClient;
-use Constup\AwsSecretsBundle\AwsSecretsEnvVarProcessor;
-use Constup\AwsSecretsBundle\Provider\AwsSecretsArrayEnvVarProvider;
-use Constup\AwsSecretsBundle\Provider\AwsSecretsCachedEnvVarProvider;
-use Constup\AwsSecretsBundle\Provider\AwsSecretsEnvVarProvider;
+use Vpyzhyk\AwsSecretsBundle\AwsSecretsEnvVarProcessor;
+use Vpyzhyk\AwsSecretsBundle\Provider\AwsSecretsArrayEnvVarProvider;
+use Vpyzhyk\AwsSecretsBundle\Provider\AwsSecretsCachedEnvVarProvider;
+use Vpyzhyk\AwsSecretsBundle\Provider\AwsSecretsEnvVarProvider;
 use Exception;
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
 use Symfony\Component\DependencyInjection\ChildDefinition;

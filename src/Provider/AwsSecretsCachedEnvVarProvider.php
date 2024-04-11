@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle\Provider;
+namespace Vpyzhyk\AwsSecretsBundle\Provider;
 
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;

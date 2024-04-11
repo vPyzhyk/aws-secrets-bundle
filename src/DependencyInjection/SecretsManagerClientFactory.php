@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle\DependencyInjection;
+namespace Vpyzhyk\AwsSecretsBundle\DependencyInjection;
 
 use Aws\SecretsManager\SecretsManagerClient;
 use Exception;

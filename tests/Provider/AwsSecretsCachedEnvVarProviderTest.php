@@ -1,9 +1,9 @@
 <?php
 
-namespace Constup\AwsSecretsBundle\Tests\Provider;
+namespace Vpyzhyk\AwsSecretsBundle\Tests\Provider;
 
-use Constup\AwsSecretsBundle\Provider\AwsSecretsCachedEnvVarProvider;
-use Constup\AwsSecretsBundle\Provider\AwsSecretsEnvVarProviderInterface;
+use Vpyzhyk\AwsSecretsBundle\Provider\AwsSecretsCachedEnvVarProvider;
+use Vpyzhyk\AwsSecretsBundle\Provider\AwsSecretsEnvVarProviderInterface;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Psr\Cache\CacheItemInterface;
